@@ -1,0 +1,11 @@
+{
+  "name": "polynomial-coaster",
+  "version": "1.0.0",
+  "description": "A roller-coaster game for practicing polynomial end behavior and zero multiplicity.",
+  "private": true,
+  "scripts": {
+    "test": "node tests/generators.test.js && node tests/sketch.test.js && node tests/ride.test.js",
+    "start": "python3 -m http.server 8000"
+  },
+  "license": "MIT"
+}
